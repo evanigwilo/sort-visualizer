@@ -433,7 +433,7 @@ sortButton.addEventListener('click', () => {
             if (error.message == sortState.terminateMsg) {
                 console.log(sortState.terminateMsg);
             }
-            else throw error;
+            // else throw error;
         }).finally(() => {
             generateStopButton.textContent = buttonState.generateBox;
 
